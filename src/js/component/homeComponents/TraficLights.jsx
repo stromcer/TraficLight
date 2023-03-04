@@ -32,7 +32,7 @@ const TraficLights = () => {
     const handlePurpleLight = () => {
         setExtraLight(!extraLight)
         console.log(extraLight)
-    }
+    }  
 
     let redClass = activeLight==RED ? "light redActive" : "light redLight";
     let yellowClass = activeLight==YELLOW ? "light yellowActive" : "light yellowLight ";
@@ -44,7 +44,7 @@ const TraficLights = () => {
     return(
         <div className="semaforo">
             <img className="lakitu" src="https://i.imgur.com/m1XJ9D3.png" />
-            <div className="mx-auto body d-flex flex-column align-items-center">
+            <div className=" body d-flex flex-column align-items-center">
                 <div className="lightsHolder my-auto">
                     <Lights color={RED} className={redClass}  onPressedLight={handlePressedLight}/>
                     <Lights color={YELLOW} className={yellowClass} onPressedLight={handlePressedLight}/>
