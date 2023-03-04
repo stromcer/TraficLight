@@ -10,3 +10,137 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+body{
+    background: url("https://i.imgur.com/ZFbJlRI.jpg");
+}
+
+.lakitu{
+    width:fit-content;
+    position: relative;
+    z-index:-1;
+    left:3px;
+    top:20px;
+    width: 600px;
+    object-fit: contain;
+
+}
+
+.botonera{
+    position:absolute;
+    bottom:-100px;
+    display:flex;
+    flex-direction: column;
+    left:150px;
+}
+
+.botonera button{
+    background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.botonera button:active {
+	position:relative;
+	top:1px;
+    background-color:#2d7a42;
+}
+
+
+.semaforo{
+    position:absolute;
+    transform:translate(70%, 10%);
+    display:flex;
+    flex-direction: row;
+    width:600px;
+    height:fit-content;
+}
+
+.body{
+    position:relative;
+    top: 200px;
+    left:-200px;
+    background-color: black;
+    width: 200px;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.light{
+    width: 120px;
+    height: 120px;
+    margin-block: 10%;
+    border-radius: 50%;
+}
+
+.redLight{
+    background: #CE5937;
+    background: -moz-radial-gradient(center, #ce5a3775 0%, #a40000bd 60%);
+    background: -webkit-radial-gradient(center, #ce5a3775 0%, #a40000bd 60%);
+    background: radial-gradient(ellipse at center, #ce5a3775 0%, #a40000bd 60%);
+}
+
+.yellowLight{
+    background: #f3e745;
+    background: -moz-radial-gradient(center, #e2b34e75 0%, #94a400bd 60%);
+    background: -webkit-radial-gradient(center, #e2b34e75 0%, #94a400bd 60%);
+    background: radial-gradient(ellipse at center, #e2b34e75 0%, #94a400bd 60%);
+}
+.greenLight{
+    background: #3cce37;
+    background: -moz-radial-gradient(center, #50b45075 0%, #0ea400bd 60%);
+    background: -webkit-radial-gradient(center, #50b45075 0%, #0ea400bd 60%);
+    background: radial-gradient(ellipse at center, #50b45075 0%, #0ea400bd 60%);
+}
+
+.redActive{
+    background: #CE5937;
+    background: -moz-radial-gradient(center, #CE5937 0%, #A40000 60%);
+    background: -webkit-radial-gradient(center, #CE5937 0%, #A40000 60%);
+    background: radial-gradient(ellipse at center, #CE5937 0%, #A40000 60%);
+    box-shadow: #A40000 0px 0px 5px, #A40000 0px 0px 10px, #A40000 0px 0px 15px, #CE5937 0px 0px 20px, #CE5937 0px 0px 30px, #CE5937 0px 0px 40px, #CE5937 0px 0px 50px, #CE5937 0px 0px 75px;
+
+    
+}
+.yellowActive{
+    background: #cec437;
+    background: -moz-radial-gradient(center, #cbff50 0%, #e1fa02 60%);
+    background: -webkit-radial-gradient(center, #cbff50 0%, #e1fa02 60%);
+    background: radial-gradient(ellipse at center, #cbff50 0%, #e1fa02 60%);
+    box-shadow: #fdf923 0px 0px 5px, #fdf923 0px 0px 10px, #fdf923 0px 0px 15px, #ffe600 0px 0px 20px, #ffe600 0px 0px 30px, #ffe600 0px 0px 40px, #ffe600 0px 0px 50px, #ffe600 0px 0px 75px;
+
+}
+.greenActive{
+    background: #3cce37;
+    background: -moz-radial-gradient(center, #50b450 0%, #0ea400 60%);
+    background: -webkit-radial-gradient(center, #50b450 0%, #0ea400 60%);
+    background: radial-gradient(ellipse at center, #50b450 0%, #0ea400 60%);
+    box-shadow: #23fd59 0px 0px 5px, #23fd59 0px 0px 10px, #23fd59 0px 0px 15px, #0ea400 0px 0px 20px, #0ea400 0px 0px 30px, #0ea400 0px 0px 40px, #0ea400 0px 0px 50px, #0ea400 0px 0px 75px;
+}
+
+
+.purpleLight{
+    background: #f85bf085;
+    background: -moz-radial-gradient(center, #f85bf085 0%, #a0019885 60%);
+    background: -webkit-radial-gradient(center, #f85bf085 0%, #a0019885 60%);
+    background: radial-gradient(ellipse at center, #f85bf085 0%, #a0019885 60%);
+}
+
+.purpleActive{
+    background: #f85bf0;
+    background: -moz-radial-gradient(center, #f85bf0 0%, #a00198 60%);
+    background: -webkit-radial-gradient(center, #f85bf0 0%, #a00198 60%);
+    background: radial-gradient(ellipse at center, #f85bf0 0%, #a00198 60%);
+    box-shadow: #fd23f2 0px 0px 5px, #fd23f2 0px 0px 10px, #fd23f2 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+
+}
+
