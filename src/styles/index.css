@@ -127,10 +127,10 @@ body{
 }
 .greenActive{
     background: #3cce37;
-    background: -moz-radial-gradient(center, #50b450 0%, #0ea400 60%);
-    background: -webkit-radial-gradient(center, #50b450 0%, #0ea400 60%);
-    background: radial-gradient(ellipse at center, #50b450 0%, #0ea400 60%);
-    box-shadow: #23fd59 0px 0px 5px, #23fd59 0px 0px 10px, #23fd59 0px 0px 15px, #0ea400 0px 0px 20px, #0ea400 0px 0px 30px, #0ea400 0px 0px 40px, #0ea400 0px 0px 50px, #0ea400 0px 0px 75px;
+    background: -moz-radial-gradient(center, #50b450 0%, #16f002 60%);
+    background: -webkit-radial-gradient(center, #50b450 0%, #16f002 60%);
+    background: radial-gradient(ellipse at center, #50b450 0%, #16f002 60%);
+    box-shadow: #23fd59 0px 0px 5px, #23fd59 0px 0px 10px, #23fd59 0px 0px 15px, #16f002 0px 0px 20px, #16f002 0px 0px 30px, #16f002 0px 0px 40px, #16f002 0px 0px 50px, #16f002 0px 0px 75px;
 }
 
 
@@ -143,10 +143,10 @@ body{
 
 .purpleActive{
     background: #f85bf0;
-    background: -moz-radial-gradient(center, #f85bf0 0%, #a00198 60%);
-    background: -webkit-radial-gradient(center, #f85bf0 0%, #a00198 60%);
-    background: radial-gradient(ellipse at center, #f85bf0 0%, #a00198 60%);
-    box-shadow: #fd23f2 0px 0px 5px, #fd23f2 0px 0px 10px, #fd23f2 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    background: -moz-radial-gradient(center, #f85bf0 0%, #e702dc 60%);
+    background: -webkit-radial-gradient(center, #f85bf0 0%, #e702dc 60%);
+    background: radial-gradient(ellipse at center, #f85bf0 0%, #e702dc 60%);
+    box-shadow: #fd23f2 0px 0px 5px, #fd23f2 0px 0px 10px, #fd23f2 0px 0px 15px, #e702dc 0px 0px 20px, #e702dc 0px 0px 30px, #e702dc 0px 0px 40px, #e702dc 0px 0px 50px, #e702dc 0px 0px 75px;
 
 }
 
