@@ -71,8 +71,9 @@ body{
     left:-200px;
     background-color: black;
     width: 200px;
-    border-radius: 10px;
+    border-radius: 100px;
     padding: 50px;
+    border:gray solid 5px;
 }
 
 .light{
