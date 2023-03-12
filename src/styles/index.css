@@ -21,6 +21,7 @@ body{
     background-size: cover;
     display:flex;
     justify-content: center;
+
     
 }
 
@@ -37,7 +38,7 @@ body{
 
 .botonera{
     position:absolute;
-    bottom:-30px;
+    bottom:-90px;
     display:flex;
     flex-direction: column;
     left:125px;
@@ -49,7 +50,7 @@ body{
 	border:1px solid #18ab29;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+    color:black;
 	font-family:Arial;
 	font-size:17px;
 	padding:16px 31px;
@@ -97,15 +98,15 @@ body{
 
 .yellowLight{
     background: #f3e745;
-    background: -moz-radial-gradient(center, #e2b34e75 0%, #94a400bd 60%);
-    background: -webkit-radial-gradient(center, #e2b34e75 0%, #94a400bd 60%);
-    background: radial-gradient(ellipse at center, #e2b34e75 0%, #94a400bd 60%);
+    background: -moz-radial-gradient(center, #e2b34ebe 0%, #94a400bd 60%);
+    background: -webkit-radial-gradient(center, #e2b34ebe 0%, #94a400bd 60%);
+    background: radial-gradient(ellipse at center, #e2b34ebe 0%, #94a400bd 60%);
 }
 .greenLight{
     background: #3cce37;
-    background: -moz-radial-gradient(center, #50b45075 0%, #0ea400bd 60%);
-    background: -webkit-radial-gradient(center, #50b45075 0%, #0ea400bd 60%);
-    background: radial-gradient(ellipse at center, #50b45075 0%, #0ea400bd 60%);
+    background: -moz-radial-gradient(center, #50b450b0 0%, #0ea400bd 60%);
+    background: -webkit-radial-gradient(center, #50b450b0 0%, #0ea400bd 60%);
+    background: radial-gradient(ellipse at center, #50b450b0 0%, #0ea400bd 60%);
 }
 
 .redActive{

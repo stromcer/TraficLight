@@ -34,6 +34,11 @@ const TraficLights = () => {
         console.log(extraLight)
     }  
 
+    const handleSwitchOff = () => {
+        setActiveLight(false);
+    }
+
+
     let redClass = activeLight==RED ? "light redActive" : "light redLight";
     let yellowClass = activeLight==YELLOW ? "light yellowActive" : "light yellowLight ";
     let greenClass = activeLight==GREEN ? "light greenActive" : "light greenLight";
@@ -53,8 +58,10 @@ const TraficLights = () => {
                 </div>
             </div>
             <div className="botonera">
+                <button className="my-2" onClick={handleSwitchOff} >Switch OFF</button>
                 <button className="my-2" onClick={handleSwitchButton}>Switch Lights</button>
                 <button className="my-2" onClick={handlePurpleLight} >¿PURPLE LIGHT?</button>
+                
             </div>
         </div>
     )
